@@ -12,7 +12,7 @@
 \PassOptionsToPackage{pdfpagelabels=false}{hyperref} 
 \RequirePackage{GemeinsameDaten}
 %\RequirePackage[utf8]{inputenc}
-\RequirePackage[english]{babel}% deutsch
+\RequirePackage[ngerman]{babel}% deutsch
 \RequirePackage{calc,layout,lastpage,lipsum,verbatim}
 \RequirePackage{tabu} 
 \RequirePackage{datetime,setspace}
@@ -78,12 +78,12 @@
 \photo[\fotoHoehe][\fotoRahmen]{\foto}
 
 \newcommand \unterschriftLL{\begin{minipage}{15cm}%
-	\wohnort , \today
+	\wohnort , den \today
 	\\\sig%
 \end{minipage}}
 
 % ============ Style ============
-\setlength{\hintscolumnwidth}{0.18\textwidth} %Linke Spalte groesser def.:0.175, fuer Familienstand 0.192. Mit geboren 0.18. Alt 0.2
+\setlength{\hintscolumnwidth}{0.2\textwidth} %Linke Spalte groesser def.:0.175, fuer Familienstand 0.192. Mit geboren 0.18. Alt 0.2
 \AtEndPreamble{\@ifclassloaded{moderncv}{\recomputecvlengths}{}}
 
 % ============ Abstaende modernCV ============ % adjust the page margins
